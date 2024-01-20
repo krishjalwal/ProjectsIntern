@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-queries.css">
+</head>
+<body>
+    
+    <!-- top banner -->
+
+    <div class="top-banner">
+        <div class="container">
+            <div class="small-bold-text banner-text">🥳 New to Usability Hub: Open and Closed card sorting</div>
+        </div>
+    </div>
+
+    <!-- nav bar -->
+    <nav>
+        <div class="container main-nav flex">
+            <a href="#" class="company-logo">
+                <img src="./Designer.png" alt="company logo">
+            </a>
+            <div class="nav-links" id="nav-links">
+                <ul class="flex">
+                    <li><a href="./chatAangan.html" class="hover-link">Aangan Chat</a></li>
+                    <li><a href="./todo-list/index.html" class="hover-link">To-Do List</a></li>
+                    <li><a href="#" class="hover-link">Blogs</a></li>
+                    <li><a href="http://127.0.0.1:5000/" class="hover-link">Predictor</a></li>
+                    <li><a href="https://drive.google.com/drive/folders/10BlzoVVJgWjDMlf8AywPUYdswt42ey7H" class="hover-link">Resources</a></li>
+                </ul>
+            </div>
+            <a href="#" class="nav-toggle hover-link" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+        </div>
+    </nav>
+
+    <!-- header section -->
+    <header>
+        <div class="container header-section flex">
+            <div class="header-left">
+                <h1>Senior's Aangan</h1>
+                <p>"SeniorsAangan" is a great and unique project
+                    that blends the idea of a space (Aangan) with
+                    the concept of seniors
+                    </p>
+                <a href="#" class="primary-button get-started-btn">Get Started</a>
+            </div>
+            <div class="header-right">
+                <img src="./Designer.png" alt="hero image">
+            </div>
+        </div>
+    </header>
+    <!-- big features section -->
+
+    
+    <section class="big-feature-section">
+        <div class="container flex big-feature-container" id="second-big-feature">
+            <div class="feature-img">
+                <img src="istockphoto-1176972994-612x612.jpg" alt="">
+            </div>
+            <div class="feature-desc flex">
+                <h4>Academic Pressure</h4>
+                
+                <p>Academic Pressure: As students progress in their
+                    academic journey, the coursework often becomes more
+                    challenging and specialized. This can increase stress
+                    and pressure to perform well.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="big-feature-section">
+        <div class="container flex big-feature-container">
+            <div class="feature-img">
+                <img src="home_F-1024x809.png" alt="">
+            </div>
+            <div class="feature-desc flex">
+                <h4>Balancing Indepence</h4>
+                
+                <p>Balancing Independence and Support: As they become
+                    more independent, juniors may struggle with knowing
+                    when to seek help or support and when to rely on their
+                    own abilities.
+                    </p>
+            </div>
+        </div>
+    </section>
+
+   
+    
+
+    <!-- examples section -->
+
+    <section class="examples-section">
+        <div class="container">
+            <div class="examples-header flex">
+                <h2 class="examples-heading-text">One platform, endless possibilities</h2>
+                <a href="#" class="secondary-button">See more examples <i class="fa-solid fa-right-long"></i></a>
+            </div>
+            <div class="examples-area flex">
+                <a href="#" class="examples-card">
+                    <h3 class="card-text">Chat System</h3>
+                </a>
+                <a class="examples-card" href="#" style="background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./assets/asset\ 34.jpeg); background-size: cover;">
+                    <h3 class="card-text">An Admission Predictor is a tool that
+                        helps students estimate their
+                        chances of getting accepted into a
+                        university abroad </h3>
+                </a>
+                <a class="examples-card" href="#">
+                    <h3 class="card-text">With In Built TODO List on
+                        our Platform helping
+                        Student to track the overall
+                        day and be productive.</h3>
+                </a>
+                <a class="examples-card" href="#">
+                    <h3 class="card-text">Incorporating a blog section where
+                        seniors can share their experiences and
+                        insights can be immensely beneficial for
+                        juniors.</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- cta section -->
+
+ 
+
+ 
+
+    
+    </div>
+
+    <script src="https://kit.fontawesome.com/c1fc3d2826.js" crossorigin="anonymous"></script>
+
+    <script>
+        const toggleButton = document.getElementById('nav-toggle');
+        const navLinks = document.getElementById('nav-links');
+
+        toggleButton.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        })
+
+    </script>
+
+</body>
+</html>
