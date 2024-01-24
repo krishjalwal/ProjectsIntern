@@ -1,0 +1,30 @@
+Face Recognition Project
+This project uses the face_recognition library along with OpenCV to perform face detection and recognition in images or live video from a webcam.
+
+Requirements
+Before running the project, ensure that you have the necessary libraries installed. You can install them using the following commands:
+
+
+pip install face_recognition
+pip install opencv-python
+Usage
+1. Clone the Repository
+
+git clone https://github.com/your_username/face_recognition_project.git
+cd face_recognition_project
+2. Run the Face Recognition Script
+For Image:
+Replace "your_image.jpg" with the path to the image you want to process.
+
+
+python face_recognition_script.py "your_image.jpg"
+For Webcam (Live Video):
+
+
+python webcam_face_recognition.py
+Press 'q' to exit the live video feed.
+
+Notes
+The project uses the face_recognition library for face detection and recognition.
+Make sure to have a webcam connected if you are using the live video script.
+Feel free to customize the project according to your needs!
